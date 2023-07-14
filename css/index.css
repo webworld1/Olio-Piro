@@ -76,7 +76,8 @@
         opacity: .7;
     }
 .CCimage {
-    width: 30%;
+    width: 100%;
+    height: 100%; 
     object-fit: cover;
 }
 
@@ -110,7 +111,8 @@
         width: 100vw;
     }
     .CCimage {
-    width: 60%;
+    width: 100%;
+        height: 100%;
     object-fit: cover;
 }
 
