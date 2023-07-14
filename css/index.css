@@ -75,6 +75,10 @@
         object-fit: cover;
         opacity: .7;
     }
+.CCimage {
+    width: 50%;
+    object-fit: cover;
+}
 
 
     .goldenT {
@@ -105,6 +109,11 @@
     .first_img{
         width: 100vw;
     }
+    .CCimage {
+    width: 80%;
+    object-fit: cover;
+}
+
 
     .navbar-toggler {
         padding: 5px;
