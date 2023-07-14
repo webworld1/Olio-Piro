@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shop Now</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Lobster&family=Mate+SC&family=Pacifico&family=Poppins&family=Righteous&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@400;700;900&family=Ubuntu:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/shopNow.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="awards.html">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Righteous&family=Roboto+Condensed&family=Roboto:wght@400;900&family=Ubuntu:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<script>
+    $(document).ready(function () {
+        $('.drop1').mouseenter(function () {
+            $('.drop1item').show();
+        });
+        $('.drop1').mouseleave(function () {
+            $('.drop1item').hide();
+        });
+        $('.drop2').mouseenter(function () {
+            $('.drop2item').show();
+        });
+        $('.drop2').mouseleave(function () {
+            $('.drop2item').hide();
+        });
+        $('.drop3').mouseenter(function () {
+            $('.drop3item').show();
+        });
+        $('.drop3').mouseleave(function () {
+            $('.drop3item').hide();
+        });
+
+        $('.a').mouseenter(function () {
+            $(this).css("textDecoration", 'underline');
+        })
+        $('.a').mouseleave(function () {
+            $(this).css("textDecoration", 'none');
+        })
+
+    })
+</script>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col">
+                <nav id="navbar" class="navbar navbar-expand-lg d-flex align-items-center">
+                    <a href="" class=" navbar-brand me-md-2 p-0 "><img src="brandImg/logo-piro_180x.webp"
+                            class=" card-img w-100" alt=""></a>
+                    <div class="d-xl-none ms-sm-auto  d-inline">
+                        <span><i class="fa-solid fa-phone me-2 navicon"></i></span>
+                        <span><i class="fa-solid fa-magnifying-glass me-2 navicon"></i></span>
+                        <span><i class="fa-solid fa-user me-2 navicon"></i></span>
+                        <span><i class="fa fa-light fa-bag-shopping  navicon"></i></span>
+                    </div>
+                    <button type="btn" class="btn navbar navbar-toggler ms-0 p-2 " data-bs-toggle="collapse"
+                        data-bs-target="#navbarText">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div id="navbarText" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item mx-2">
+                                <a href="index.html" class="nav-link   fw-xl-normal ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown drop1 mx-2">
+                                <a href="awards.html" class="nav-link dropdown-toggle  fw-xl-normal"
+                                    data-bs-toggle="collapse" data-bs-target="#about">About</a>
+
+                                <ul class="dropdown-menu drop1item collapse rounded-0" id="about">
+                                    <li class="">
+                                        <a class="dropdown-item  fw-xl-normal" href="">Watch our Movie</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="dropdown-item  fw-xl-normal" href="">Our Company</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="dropdown-item  fw-xl-normal" href="">Journal</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="dropdown-item  fw-xl-normal" href="awards.html">Awards</a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="nav-item drop2 mx-2">
+                                <a href="" class="nav-link dropdown-toggle text-decoration-underline fw-xl-normal"
+                                    data-bs-toggle="collapse" data-bs-target="#Shop">Shop Olive Oil</a>
+                                <ul class="dropdown-menu drop2item collapse rounded-0" id="Shop">
+                                    <li class="item">
+                                        <a class="dropdown-item  fw-xl-normal" href="">100ml</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="dropdown-item  fw-xl-normal" href="">250ml</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="dropdown-item  fw-xl-normal" href="">500ml</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="dropdown-item  fw-xl-normal" href="">3x500ml</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="dropdown-item  fw-xl-normal" href="shopNow.html">Subscriptions</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="dropdown-item  fw-xl-normal" href="">Store Locator</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item drop3 mx-2">
+                                <a href="" class="nav-link dropdown-toggle  fw-xl-normal" data-bs-toggle="collapse"
+                                    data-bs-target="#ShopB">Shop Balsamic</a>
+                                <ul class="dropdown-menu drop3item collapse rounded-0" id="ShopB">
+                                    <li class="item">
+                                        <a class="dropdown-item  fw-xl-normal" href="">3 years</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="dropdown-item  fw-xl-normal" href="">8 years</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="dropdown-item  fw-xl-normal" href="">12 years</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="dropdown-item  fw-xl-normal" href="">18 years</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="dropdown-item  fw-xl-normal" href="">25 years</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="dropdown-item  fw-xl-normal" href="">50 years</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="dropdown-item  fw-xl-normal" href="">PDO</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="dropdown-item  fw-xl-normal" href="">Collections</a>
+                                    </li>
+                                </ul>
+                            <li class="nav-item mx-2">
+                                <a href="" class="nav-link  fw-xl-normal">Reviews</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a href="" class="nav-link  fw-xl-normal">Press</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a href="" class="nav-link  fw-xl-normal">Recipe Collection</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a href="" class="nav-link  fw-xl-normal">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-xl-block d-none">
+                        <span><i class="fa-solid fa-phone me-3 navicon"></i></span>
+                        <span><i class="fa-solid fa-magnifying-glass me-3 navicon"></i></span>
+                        <span><i class="fa-solid fa-user me-3 navicon"></i></span>
+                        <span><i class="fa fa-light fa-bag-shopping me-3 navicon"></i></span>
+                    </div>
+                </nav>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 image position-relative">
+                <div class="bg-black image1">
+                    <img class="posterImg" src="brandImg/topBackgroundImg.webp" alt="">
+                </div>
+                <div class="hBox position-absolute">
+                    <h1 class=" text-white mt-5  text-center mx-2">High Antioxidant Extra Virgin Olive Oil Piro.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row px-5">
+            <div class="col">
+                <h2 class="my-4">Welcome to Clean Haute Cuisine</h2>
+                <p class="pera">With a bold, fresh flavor and a peppery finish, a simple pour of Piro. transform your
+                    dishes to delicious and health. <br><br>
+
+                    Antioxidant-rich, flavor-packed EVOO developed with the Italian Consiglio Nazionale delle Ricerche,
+                    Piro is produced with paramount quality standards in Tuscany. Each bottle has a handwritten harvest
+                    date and lot number, guaranteeing our commitment to quality and freshness so each bottle in your
+                    kitchen will taste as delicious and fresh as when it was bottled at our mill. <br><br>
+
+                    750mg Polyphenols/kg - 4mg Vitamin E per serving <br><br>
+
+                    <i> "Just a touch turns this quick weeknight pasta into something rare."</i>
+                </p>
+                <p class="pera text-end">- Author and Journalist Ellen Kanner</p>
+            </div>
+            <hr class="mt-4">
+            <div class="col d-flex ">
+                <p class="pera mt-2">FILTER BY</p>
+                <div class="dropdown me-5">
+                    <button type="button" class="btn btn-white rounded-0  dropdown-toggle pera fw-bold"
+                        data-bs-toggle="dropdown">All Products</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-item">All Products</a></li>
+                        <li><a href="" class="dropdown-item">Olive Oil</a></li>
+                    </ul>
+                </div>
+                <p class="pera mt-2">SHORT BY</p>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-white dropdown-toggle rounded-0  pera fw-bold"
+                        data-bs-toggle="dropdown">Best selling</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-item">Featured</a></li>
+                        <li><a href="" class="dropdown-item">Best Selling</a></li>
+                        <li><a href="" class="dropdown-item">Alphabetically, A-Z</a></li>
+                        <li><a href="" class="dropdown-item">Alphabetically, Z-A</a></li>
+                        <li><a href="" class="dropdown-item">Price, low to high</a></li>
+                        <li><a href="" class="dropdown-item">Price, high to low</a></li>
+                        <li><a href="" class="dropdown-item">Date, old to new</a></li>
+                        <li><a href="" class="dropdown-item">Date, new to old</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <p class="pera text-end me-3">5 products</p>
+            </div>
+            <hr>
+            <div class="col-12">
+                <div class="container">
+                    <div class="row my-5 mx-auto d-flex justify-content-center">
+                        <div class="col-md-3  ms-5 mb-5">
+                            <a href="" class="a">
+                                <img class="shopPro"
+                                    src="shopNowImage/500ml_c0fabd29-7513-4b56-bf38-69394e194095_180x.webp" alt="">
+                                <h3>Piro.Subscription</h3>
+                                <p class="pera price"><del>$61.50</del><span class="pricecol"> $49.50 Sale</span></p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 ms-5">
+                            <a href="" class="a">
+                                <img class="shopPro "
+                                    src="shopNowImage/500ml_c0fabd29-7513-4b56-bf38-69394e194095_180x.webp" alt="">
+                                <h3>3x500ml (3x16.8oz)-2022</h3>
+                                <p class="pera price"><span class="pricecol">$154.50</span></p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 ms-5">
+                            <a href="" class="a">
+                                <img class="shopPro "
+                                    src="shopNowImage/500ml_c0fabd29-7513-4b56-bf38-69394e194095_180x.webp" alt="">
+                                <h3>*500ml (16.8oz) - 2022</h3>
+                                <p class="pera price"><span class="pricecol"> $56.00</span></p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 ms-5">
+                            <a href="" class="a">
+                                <img class="shopPro "
+                                    src="shopNowImage/250ml_04b87a8c-5269-46e4-b05f-54364150457f_180x.webp" alt="">
+                                <h3>*250ml (8.4oz) - 2022</h3>
+                                <p class="pera price"><span class="pricecol">$33.00</span></p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 ms-5">
+                            <a href="" class="a">
+                                <img class="shopPro "
+                                    src="shopNowImage/100ml_1_201b349d-ce94-49e0-bab2-abf8f03a0567_180x.webp" alt="">
+                                <h3>*100ml (3.4oz) - 2022</h3>
+                                <p class="pera price"><span class="pricecol">$19.00</span></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footerBg">
+        <div class="row d-flex justify-content-center pt-5">
+            <div class="col-xl-3 text-start  px-5">
+                <p class="footerH">Olio Piro. LLC</p>
+                <p class="fotterP">Exclusive importers of Olio Piro. by Anteata Frantoio.</p>
+                <p class="fotterP">Tel. +1 864 501 4411</p>
+            </div>
+            <div class="col-xl-3 text-start px-5 px-xl-0 d-flex flex-column justify-content-center py-2">
+                <p class="footerH align-self-center">Sign up to receive our recipes and latest news</p>
+                <form action="" class="form">
+                    <input type="email" class=" my-3 form-control rounded-0 border border-black"
+                        placeholder="Email address">
+                    <button type="button" class="btn btn-dark w-100 rounded-0 fw-bold mb-5">Submit</button>
+                </form>
+            </div>
+            <div class="col-xl-3 text-start  px-5">
+                <p class="footerH">*Vitamin E</p>
+                <p class="fotterP">Olio Piro.'s antioxidant content is at least 4mg of Vitamin E per serving .</p>
+            </div>
+            <hr>
+        </div>
+        <div class="row">
+
+            <div class="container ">
+                <div class="row   d-flex flex-lg-column justify-content-center  ">
+                    <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center   offset-lg-1">
+                        <span><a href="#"><i class="fa-brands fa-instagram mx-2 text-black"></i></a></span>
+                        <span><a href="#"><i class="fa-brands fa-pinterest mx-2 text-black"></i></a></span>
+                        <span><a href="#"><i class="fa-brands fa-facebook mx-2 text-black"></i></a></span>
+                        <span><a href="#"><i class="fa-brands fa-tiktok mx-2  text-black"></i></a></span>
+                    </div>
+                    <div class="col-12 col-lg-3 d-flex  justify-content-center offset-lg-1">
+                        <p class="fotterC">© 2023, Olio Piro. Powered by Shopify</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>

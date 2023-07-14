@@ -1,0 +1,125 @@
+.navbar-brand {
+    font-family: 'PT Serif', serif;
+}
+
+.item:hover .dropdown-item {
+    text-decoration: underline;
+    background-color: white !important;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.navicon {
+    font-size: larger;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    font-size: small;
+    font-weight: 450;
+    color: black;
+}
+
+.nav-link {
+    font-weight: 450;
+}
+
+.dropdown-item {
+    font-size: small;
+}
+
+.image {
+    width: 100vw;
+    height: 40vh;
+    overflow: hidden;
+}
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card-img {
+    object-fit: cover;
+}
+
+.posterImg {
+    object-fit: cover;
+    object-position: 100% 60%;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+}
+
+.hBox {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.footerBg {
+    background-color: rgba(60, 60, 60, 0.132);
+}
+
+.footerH {
+    font-size: large;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.854);
+    font-family: 'PT Serif', serif !important;
+}
+
+.fotterP {
+    font-size: small;
+}
+
+.fa-brands {
+    font-size: 25px;
+}
+
+.fotterC {
+    font-size: 10px;
+}
+
+.pera {
+    font-size: small;
+    color: rgba(15, 15, 15, 0.545);
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.62);
+    font-family: 'PT Serif', serif;
+}
+
+h3 {
+    font-family: 'PT Serif', serif;
+    color: rgba(0, 0, 0, 0.62);
+    text-decoration: none;
+    font-size: larger;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 8px 11px;
+    font-family: 'PT Serif', serif !important;
+}
+
+.pricecol {
+    color: rgba(0, 128, 0, 0.439);
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+}
+
+.shopPro {
+    width: 60%;
+}

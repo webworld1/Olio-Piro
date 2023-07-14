@@ -1,0 +1,102 @@
+.navbar-brand {
+    font-family: 'PT Serif', serif;
+}
+
+.item:hover .dropdown-item {
+    text-decoration: underline;
+    background-color: white !important;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.navicon {
+    font-size: larger;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    font-size: small;
+    font-weight: 450;
+    color: black;
+}
+
+.nav-link {
+    font-weight: 450;
+}
+
+.dropdown-item {
+    font-size: small;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 8px 11px;
+    font-family: 'PT Serif', serif !important;
+}
+
+
+h1 {
+    font-family: 'PT Serif', serif;
+    color: rgba(28, 28, 28, 0.838);
+}
+
+h6 {
+    font-family: 'PT Serif', serif;
+    color: rgba(28, 28, 28, 0.904);
+}
+
+.awardImage {
+    width: 200px;
+}
+
+.paragraph {
+    padding: 0 250px;
+}
+
+h5 {
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+}
+
+.footerH {
+    font-size: 20px;
+    word-spacing: 3px;
+}
+
+.footerP {
+    font-size: 12px;
+}
+
+.paddingS {
+    padding-left: 150px;
+}
+
+.paddingE {
+    padding-right: 150px;
+}
+
+.footerBg {
+    background-color: rgba(0, 0, 0, 0.132);
+}
+
+.footerH {
+    font-size: large;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.854);
+    font-family: 'PT Serif', serif !important;
+
+}
+
+.fotterP {
+    font-size: small;
+}
+
+.fa-brands {
+    font-size: 25px;
+}
+
+.fotterC {
+    font-size: 10px;
+}
